@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: #306B34;
+    font-family: 'Pattaya', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    margin-bottom: 10px;
+    
+}
+
+.score {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.grid {
+    background-color: black;
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: rgb(128, 0, 0);
+}
+
+.movement-buttons {
+    display: none;
+}
+
+.instruction-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px 10px 20px;
+    word-wrap: break-word;
+    overflow: visible;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.instructions ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .movement-buttons {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+}
